@@ -142,8 +142,9 @@ function OrbitSection({ category }: { category: Category }) {
                 return (
                   <motion.div key={truck.name} className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer group" style={{ x: Math.cos(angle) * radius, y: Math.sin(angle) * radius }} onClick={() => setSelectedTruck(truck)} >
                     <motion.div animate={{ rotate: isHovered ? 0 : -360 }} transition={{ duration: 45, repeat: Infinity, ease: "linear" }} >
-                      <div className="bg-white p-2 md:p-4 rounded-xl md:rounded-2xl border border-slate-200 shadow-xl group-hover:border-blue-500 transition-all group-hover:scale-110">
-                        <img src={truck.image} alt={truck.name} className="w-12 sm:w-24 md:w-36 h-auto object-contain" />
+                      {/* Dumaloq qilish uchun: rounded-full va aspect-square qo'shildi */}
+                      <div className="bg-white p-2 md:p-4 rounded-full aspect-square flex items-center justify-center border border-slate-200 shadow-xl group-hover:border-blue-500 transition-all group-hover:scale-110">
+                        <img src={truck.image} alt={truck.name} className="w-10 sm:w-20 md:w-32 h-auto object-contain" />
                       </div>
                     </motion.div>
                   </motion.div>
@@ -239,7 +240,6 @@ export default function App() {
             <img src="./light.png" alt="Kamaz.spec Logo" width={90} height={"auto"} className="w-[70px] md:w-[90px]" />
           </div>
           
-          {/* hidden lg:flex klassini o'zgartirib barcha ekranlarda ko'rinadigan qildik */}
           <div className="flex items-center gap-3 md:gap-10">
             {truckData.map(cat => (
               <button 
