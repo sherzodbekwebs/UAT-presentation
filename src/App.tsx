@@ -236,7 +236,7 @@ export default function App() {
       <nav className="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-100 px-4">
         <div className="max-w-[1500px] mx-auto h-16 md:h-20 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src="./public/light.png" alt="Kamaz.spec Logo" width={90} height={"auto"} className="w-[70px] md:w-[90px]" />
+            <img src="./light.png" alt="Kamaz.spec Logo" width={90} height={"auto"} className="w-[70px] md:w-[90px]" />
           </div>
           
           {/* hidden lg:flex klassini o'zgartirib barcha ekranlarda ko'rinadigan qildik */}

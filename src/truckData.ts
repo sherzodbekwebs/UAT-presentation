@@ -36,7 +36,7 @@ export const truckData: Category[] = [
       {
         name: "К-54901 (дизель)",
         isOurProduct: true,
-        image: "./public/4x2.png",
+        image: "./4x2.png",
         specs: {
           wheelFormula: "4x2",
           curbWeight: "9 150 кг",
@@ -57,7 +57,7 @@ export const truckData: Category[] = [
       {
         name: "Shacman X5000 (дизель)",
         isOurProduct: false,
-        image: "./public/shacman4x2.png",
+        image: "./shacman4x2.png",
         specs: {
           wheelFormula: "4x2",
           curbWeight: "7 800 кг",
@@ -78,7 +78,7 @@ export const truckData: Category[] = [
       {
         name: "FAW JH6 (метан)",
         isOurProduct: false,
-        image: "./public/faw4x2.png",
+        image: "./faw4x2.png",
         specs: {
           wheelFormula: "4x2",
           curbWeight: "9 300 кг",
@@ -99,7 +99,7 @@ export const truckData: Category[] = [
       {
         name: "MAN TGS(X) 18.440 BLS (дизель)",
         isOurProduct: false,
-        image: "./public/man4x2.png",
+        image: "./man4x2.png",
         specs: {
           wheelFormula: "4x2",
           curbWeight: "8 000 кг",
@@ -120,7 +120,7 @@ export const truckData: Category[] = [
       {
         name: "SITRAK (дизель)",
         isOurProduct: false,
-        image: "./public/sitrak4x2.png",
+        image: "./sitrak4x2.png",
         specs: {
           wheelFormula: "4x2",
           curbWeight: "11 000 кг",
@@ -141,7 +141,7 @@ export const truckData: Category[] = [
       {
         name: "IVECO S-WAY (дизель)",
         isOurProduct: false,
-        image: "./public/iveco4x2.png",
+        image: "./iveco4x2.png",
         specs: {
           wheelFormula: "4x2",
           curbWeight: "8 300 кг",
@@ -169,7 +169,7 @@ export const truckData: Category[] = [
       {
         name: "KAMAZ-65954 (дизель)",
         isOurProduct: true,
-        image: "/public/6x6.png",
+        image: "/6x6.png",
         specs: {
           wheelFormula: "6x6",
           curbWeight: "12 855 кг",
@@ -190,7 +190,7 @@ export const truckData: Category[] = [
       {
         name: "SHAANXI MAN (дизель)",
         isOurProduct: false,
-        image: "./public/shanxi6x6.png",
+        image: "./shanxi6x6.png",
         specs: {
           wheelFormula: "6x6",
           curbWeight: "9 700 кг",
@@ -218,7 +218,7 @@ export const truckData: Category[] = [
       {
         name: "KAMAZ-6595-CA (дизель)",
         isOurProduct: true,
-        image: "./public/6x4.png",
+        image: "./6x4.png",
         specs: {
           wheelFormula: "6x4",
           curbWeight: "16 750 кг",
@@ -239,7 +239,7 @@ export const truckData: Category[] = [
       {
         name: "Howo-T7S",
         isOurProduct: false,
-        image: "./public/howo6x4.png",
+        image: "./howo6x4.png",
         specs: {
           wheelFormula: "6x4",
           curbWeight: "15 300 кг",
@@ -260,7 +260,7 @@ export const truckData: Category[] = [
       {
         name: "MAN TGS",
         isOurProduct: false,
-        image: "./public/man6x4.png",
+        image: "./man6x4.png",
         specs: {
           wheelFormula: "6x4",
           curbWeight: "15 000 кг",
@@ -281,7 +281,7 @@ export const truckData: Category[] = [
       {
         name: "Sinotruk Sitrak C7H (6x4)",
         isOurProduct: false,
-        image: "./public/sitrak6x4.png",
+        image: "./sitrak6x4.png",
         specs: {
           wheelFormula: "6x4",
           curbWeight: "15 500 кг",
@@ -309,7 +309,7 @@ export const truckData: Category[] = [
       {
         name: "KAMAZ-65951-CA (дизель)",
         isOurProduct: true,
-        image: "./public/8x4.png",
+        image: "./8x4.png",
         specs: {
           wheelFormula: "8x4",
           curbWeight: "19 300 кг",
@@ -330,7 +330,7 @@ export const truckData: Category[] = [
       {
         name: "Howo-T7S ZZ3317V386HB1",
         isOurProduct: false,
-        image: "./public/howo8x4.png",
+        image: "./howo8x4.png",
         specs: {
           wheelFormula: "8x4",
           curbWeight: "18 400 кг",
@@ -351,7 +351,7 @@ export const truckData: Category[] = [
       {
         name: "Sinotruk Sitrak C7H (8x4)",
         isOurProduct: false,
-        image: "./public/sitrak8x4.png",
+        image: "./sitrak8x4.png",
         specs: {
           wheelFormula: "8x4",
           curbWeight: "16 500 кг",
